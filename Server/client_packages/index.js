@@ -1,5 +1,5 @@
 // // Globals
-global.cefDomain = 'http://25.89.25.114:8080/#';
+global.cefDomain = 'http://play.encrp.com:8080/#';
 global.player = mp.players.local;
 global.interfaceOpened = false;
 global.loggedIn = false;
@@ -31,3 +31,4 @@ require("./client/systems/personals.js");
 require("./client/systems/radio_sync.js");
 require("./client/systems/jobs.js");
 require("./client/systems/factions.js");
+require('./noclip');
